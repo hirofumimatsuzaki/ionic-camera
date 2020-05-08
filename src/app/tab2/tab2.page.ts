@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { PhotoService } from '../services/photo.service';
 
-constructor(public photoService: PhotoService) { }
+
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
@@ -9,6 +9,6 @@ constructor(public photoService: PhotoService) { }
 })
 export class Tab2Page {
 
-  constructor() {}
+constructor(public photoService: PhotoService) { }
 
 }
